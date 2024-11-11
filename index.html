@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerifiedJobsinLagos Blog Website - Engaging Content and Social Media Integration</title>
+    <meta name="description" content="Discover engaging blog content on our robust platform, integrated with OpenAI for keyword research and high-quality post generation. Stay connected with seamless social media integration and scheduled post publishing.">
+    <meta name="keywords" content="blog, OpenAI, social media, blog posts, keyword research, content generation, automatic publishing, Bootstrap, responsive design">
+    <meta name="author" content="Vincent Agber">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="VerifiedJobsinLagoss Blog Website - Engaging Content and Social Media Integration">
+    <meta property="og:description" content="Join MyBlog for high-quality blog content powered by OpenAI. Create, schedule, and publish content easily with social media integration.">
+    <meta property="og:image" content="/assets/images/logo.png">
+    <meta property="og:url" content="https://www.verifiedjobsinLagos.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VerifiedJobsinLagos Blog Website - Engaging Content and Social Media Integration">
+    <meta name="twitter:description" content="Create and explore compelling blog posts with seamless OpenAI integration and social media connectivity.">
+    <meta name="twitter:image" content="assets/images/logo.png">
+    <!-- AOS Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: transparent;">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="Logo" style="height: 70px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item" style="margin-right: 15px;">
+                    <a class="nav-link text-black" href="#about">About</a>
+                </li>
+                 <li class="nav-item" style="margin-right: 15px;">
+                    <a class="nav-link text-black" href="#Jobs">Jobs</a>
+                </li>
+                <li class="nav-item" style="margin-right: 15px;">
+                    <a class="nav-link text-black" href="#services">Services</a>
+                </li>
+                <li class="nav-item" style="margin-right: 15px;">
+                    <a class="nav-link text-black" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary">Sign Up</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section" style="
+    background-image: url('assets/images/intro.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+    height: 100vh; 
+">
+    <div class="overlay"></div>
+
+    <div class="content">
+    <h1 class="display-4 fw-bold">Welcome to Verified Jobs in Lagos</h1>
+    <p class="lead">Discover trusted job opportunities in Lagos with a focus on reliability, transparency, and career growth. Let us guide you to the perfect role that aligns with your skills and aspirations.</p>
+    <a href="#about" class="btn btn-light mt-3">Learn More</a>
+</div>
+</div>
+
+<!-- Customer-Centric Section -->
+<section id="marketing-strategy" class="py-5 bg-light position-relative">
+    <div class="container">
+        <h2 class="text-center mb-5" style="font-size: 2.5rem; font-weight: 700; color: #343a40;">Where Customers Always Get the Best Tech Tips and Job Opportunities</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="icon mb-3" style="font-size: 2.5rem; color: #007bff;">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h5 class="card-title">Tech Tips</h5>
+                        <p class="card-text text-muted">Explore expert advice and actionable insights to enhance your tech knowledge.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="icon mb-3" style="font-size: 2.5rem; color: #28a745;">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <h5 class="card-title">Job Vacancies</h5>
+                        <p class="card-text text-muted">Stay updated with the latest job postings in the tech industry and beyond.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="icon mb-3" style="font-size: 2.5rem; color: #ffc107;">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h5 class="card-title">Industry Insights</h5>
+                        <p class="card-text text-muted">Get the latest trends and strategies that are shaping the tech landscape.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="icon mb-3" style="font-size: 2.5rem; color: #dc3545;">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h5 class="card-title">Networking Tips</h5>
+                        <p class="card-text text-muted">Learn how to expand your professional network and make meaningful connections.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Engagement Section -->
+<section id="engagement" class="py-5 bg-dark text-white">
+    <div class="container">
+        <h2 class="text-center mb-4" style="font-size: 2.5rem; font-weight: 700;">Enhance Engagement and Stay Ahead</h2>
+        <p class="text-center mb-5 lead">Stay connected with the latest tech tips and job opportunities tailored to your professional growth.</p>
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                 <img src="assets/images/img-10.png" alt="About Us Image" data-aos="fade-right">
+            </div>
+            <div class="col-md-6">
+                <h5 class="mb-3" style="font-size: 1.75rem;">Your Path to Success</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-3 d-flex align-items-start">
+                        <i class="fas fa-check-circle me-2" style="color: #28a745; font-size: 1.5rem;"></i>
+                        <p class="mb-0">Access expert tips and techniques that drive your tech journey forward.</p>
+                    </li>
+                    <li class="mb-3 d-flex align-items-start">
+                        <i class="fas fa-check-circle me-2" style="color: #28a745; font-size: 1.5rem;"></i>
+                        <p class="mb-0">Find job openings suited to your expertise and career goals.</p>
+                    </li>
+                    <li class="mb-3 d-flex align-items-start">
+                        <i class="fas fa-check-circle me-2" style="color: #28a745; font-size: 1.5rem;"></i>
+                        <p class="mb-0">Engage with content that prepares you for career challenges and opportunities.</p>
+                    </li>
+                    <li class="mb-3 d-flex align-items-start">
+                        <i class="fas fa-check-circle me-2" style="color: #28a745; font-size: 1.5rem;"></i>
+                        <p class="mb-0">Network effectively with peers and industry leaders.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Us Section -->
+<section id="about" class="about-us-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Column (on left) -->
+            <div class="col-md-6">
+                <div class="about-text" data-aos="fade-left">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="lead">Our mission is to empower and uplift a diverse community of job seekers, guiding them towards meaningful and fulfilling career opportunities. We're committed to providing the tools, resources, and support needed to help individuals achieve their professional goals, while also inspiring and nurturing their entrepreneurial aspirations.</br></br>
+                    Through personalized mentorship, skill development, and unwavering encouragement, We aim to foster self-confidence and independence, enabling each person to thrive in their chosen path and create lasting impact in their communities.</p>
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+            <!-- Image Column (on right) -->
+            <div class="col-md-6 order-md-last">
+                <img src="assets/images/img-13.png" alt="About Us Image" data-aos="fade-right">
+            </div>
+        </div>
+    </div>
+</section>
+
+<
+<!-- 4. Upcoming Webinars/Events Section -->
+<section id="events" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5" style="font-weight: 700; color: #333;">Upcoming Events</h2>
+        <div class="row g-4">
+            <!-- Tech Trends Webinar Card -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-lg rounded-3 overflow-hidden">
+                    <div class="card-body text-center">
+                        <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title text-primary">Tech Trends Webinar</h5>
+                        <p class="card-text">Join us on <strong>August 20th</strong> for an in-depth look at emerging tech trends. <span class="text-success">Limited slots available!</span></p>
+                        <button class="btn btn-success px-4 py-2">Register Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Digital Marketing Masterclass Card -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-lg rounded-3 overflow-hidden">
+                    <div class="card-body text-center">
+                        <i class="fas fa-bullhorn fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title text-primary">Digital Marketing Masterclass</h5>
+                        <p class="card-text">On <strong>September 10th</strong>, learn the latest strategies in digital marketing. <span class="text-warning">Don't miss it!</span></p>
+                        <button class="btn btn-primary px-4 py-2">Register Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- How to Land Your First Remote Job Card -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-lg rounded-3 overflow-hidden">
+                    <div class="card-body text-center">
+                        <i class="fas fa-briefcase fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title text-primary">How to Land Your First Remote Job</h5>
+                        <p class="card-text">On <strong>October 5th</strong>, join us for a workshop where we'll guide you through the essential steps to land your first remote job. <span class="text-danger">Limited spots available!</span></p>
+                        <button class="btn btn-danger px-4 py-2">Register Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. Newsletter Subscription Section -->
+<section id="newsletter" class="py-5 bg-dark text-white">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h2 style="font-weight: 700;">Subscribe to Our Newsletter</h2>
+            <p style="font-size: 1.1rem;">Stay updated with the latest tech tips and job opportunities delivered right to your inbox.</p>
+        </div>
+        <form class="d-flex flex-column align-items-center">
+            <div class="input-group" style="max-width: 500px; width: 100%;">
+                <input type="email" class="form-control rounded-start" placeholder="Enter your email" aria-label="Email" required>
+                <button type="submit" class="btn btn-primary text-white" style="min-width: 150px;background-color: red;">Subscribe</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- 7. FAQs Section -->
+<section id="faqs" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5" style="font-weight: 700; font-size: 2.5rem; color: #333;">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqsAccordion">
+            <!-- FAQ 1 -->
+            <div class="accordion-item shadow-sm border-0 rounded mb-3" style="background-color: #fff;">
+                <h2 class="accordion-header" id="faq1">
+                    <button class="accordion-button text-left py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1" style="font-size: 1.2rem; font-weight: 600; color: #4e4e4e;">
+                        How do I find the best tech tips?
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqsAccordion">
+                    <div class="accordion-body" style="font-size: 1rem; color: #666; line-height: 1.6;">
+                        You can browse our articles and blog section for the latest tech tips curated by experts. We provide in-depth insights to help you stay ahead in the tech industry.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ 2 -->
+            <div class="accordion-item shadow-sm border-0 rounded mb-3" style="background-color: #fff;">
+                <h2 class="accordion-header" id="faq2">
+                    <button class="accordion-button text-left py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" style="font-size: 1.2rem; font-weight: 600; color: #4e4e4e;">
+                        How do I apply for a job in the tech industry?
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqsAccordion">
+                    <div class="accordion-body" style="font-size: 1rem; color: #666; line-height: 1.6;">
+                        You can apply by browsing our job listings on the Careers page and submitting your application through the online portal. Our platform is user-friendly and allows you to apply in just a few clicks.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ 3 -->
+            <div class="accordion-item shadow-sm border-0 rounded mb-3" style="background-color: #fff;">
+                <h2 class="accordion-header" id="faq3">
+                    <button class="accordion-button text-left py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3" style="font-size: 1.2rem; font-weight: 600; color: #4e4e4e;">
+                        What are the benefits of posting job ads on your platform?
+                    </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqsAccordion">
+                    <div class="accordion-body" style="font-size: 1rem; color: #666; line-height: 1.6;">
+                        Our platform offers a wide reach to qualified candidates, efficient job matching, and easy-to-use tools to streamline the hiring process, helping you find the perfect talent faster.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ 4 -->
+            <div class="accordion-item shadow-sm border-0 rounded mb-3" style="background-color: #fff;">
+                <h2 class="accordion-header" id="faq4">
+                    <button class="accordion-button text-left py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4" style="font-size: 1.2rem; font-weight: 600; color: #4e4e4e;">
+                        What is the role of SEO in digital marketing?
+                    </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqsAccordion">
+                    <div class="accordion-body" style="font-size: 1rem; color: #666; line-height: 1.6;">
+                        SEO (Search Engine Optimization) helps improve your website's visibility on search engines, driving organic traffic and increasing brand awareness by optimizing your site for relevant search queries.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ 5 -->
+            <div class="accordion-item shadow-sm border-0 rounded mb-3" style="background-color: #fff;">
+                <h2 class="accordion-header" id="faq5">
+                    <button class="accordion-button text-left py-3 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5" style="font-size: 1.2rem; font-weight: 600; color: #4e4e4e;">
+                        How can I create a successful Facebook ad campaign?
+                    </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqsAccordion">
+                    <div class="accordion-body" style="font-size: 1rem; color: #666; line-height: 1.6;">
+                        Start by defining your target audience, setting a clear budget, choosing the right objective, and creating engaging ad content. Track performance, adjust your strategy, and optimize accordingly for the best results.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- 8. Call-to-Action (CTA) Banner -->
+<section id="cta-banner" class="py-5 text-white text-center" style="background-color: red;">
+    <div class="container">
+        <h2 class="mb-3" style="font-weight: 700;">Join Us and Stay Updated</h2>
+        <p class="lead mb-4">Get access to exclusive tech tips, job postings, and professional growth resources.</p>
+        <button class="btn btn-light">Sign Up Now</button>
+    </div>
+</section>
+
+
+<!-- 9. Statistics & Achievements Section -->
+<section id="statistics" class="py-5 bg-dark text-light">
+    <div class="container">
+        <h2 class="text-center mb-4" style="font-weight: 700;">Our Achievements</h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <h3 class="display-4">50k+</h3>
+                <p class="text-muted">Satisfied Users</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="display-4">5k+</h3>
+                <p class="text-muted">Job Placements</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="display-4">20+</h3>
+                <p class="text-muted">Webinars Hosted</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="display-4">150+</h3>
+                <p class="text-muted">Tech Articles</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 10. Partner Logos/Client Showcase Section -->
+<section id="partners" class="py-5 bg-white">
+    <div class="container">
+        <h2 class="text-center mb-4" style="font-weight: 700;">Trusted by Industry Leaders</h2>
+        <div class="d-flex justify-content-center flex-wrap">
+            <img src="assets/images/logo.png" alt="Partner 1" class="mx-3 mb-3" style="height: 60px;">
+            <img src="assets/images/billionaire.png" alt="Partner 2" class="mx-3 mb-3" style="height: 60px;">
+            <img src="assets/images/lelyproperty.png" alt="Partner 3" class="mx-3 mb-3" style="height: 60px;">
+            <img src="assets/images/julius.png" alt="julius" class="mx-3 mb-3" style="height: 60px;">
+            <img src="assets/images/studyabroad.jpeg" alt="studyabroad" class="mx-3 mb-3" style="height: 60px;">
+            <img src="assets/images/GEOPonts-Properties-LOGO.png" alt="GEOPonts-Properties" class="mx-3 mb-3" style="height: 60px;">
+            <img src="assets/images/dreamriser.png" alt="dreamriser" class="mx-3 mb-3" style="height: 60px;">
+            <img src="assets/images/arose-logo.png" alt="dreamriser" class="mx-3 mb-3" style="height: 60px;">
+        </div>
+    </div>
+</section>
+
+<!-- Latest Blog Posts-->
+<section class="container py-5">
+  <div class="dynamic-posts py-5" style="background-color: #f1f1f1;">
+    <div class="text-center mb-4">
+      <h2 class="section-title">Latest Blog Posts</h2>
+      <p class="text-muted">Stay updated with our latest articles and insights</p>
+      <p class="lead">Explore our expert advice, tips, and tutorials designed to help you stay ahead in the fast-paced digital world. Whether you're looking to grow your career, optimize your website, or enhance your digital presence, we've got you covered with actionable strategies and in-depth knowledge.</p>
+    </div>
+
+    <div class="row">
+      <!-- Blog Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/images/JOB.jpg" class="card-img-top" alt="Blog post 1">
+          <div class="card-body">
+            <h5 class="card-title">How to Get Your First Remote Job: A Complete Guide for Beginners</h5>
+            <p class="card-text text-muted">The world of work has drastically changed, and remote jobs are now more accessible than ever. Whether you’re a recent graduate, switching careers, or looking to work from home, landing your first remote job can be challenging. This guide will walk you through the essential steps to find, apply for, and secure your first remote job.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/images/website.jpg" class="card-img-top" alt="Blog post 2">
+          <div class="card-body">
+            <h5 class="card-title">How to Improve Your Website Speed: Simple and Effective Tips</h5>
+            <p class="card-text text-muted">Introduction
+            Website speed is crucial to your site’s performance, user experience, and SEO rankings. Slow loading times can drive potential customers away, while fast websites create a smooth experience and help retain visitors. In this post, we’ll show you how to improve your website’s speed with easy-to-implement strategies.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/images/seo.jpg" class="card-img-top" alt="Blog post 3">
+          <div class="card-body">
+            <h5 class="card-title">How to Do Proper SEO: A Beginner’s Guide to Boosting Your Website’s Visibility</h5>
+            <p class="card-text text-muted">Search Engine Optimization (SEO) is the backbone of online visibility. Without proper SEO, your website may never reach the right audience. Whether you’re new to SEO or looking to refine your skills, this guide covers the essentials of on-page and off-page SEO to improve your rankings on Google.</p>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <!-- Logo Section -->
+      <div class="col-md-4 mb-4">
+        <img src="assets/images/logo.png" alt="VerifiedJobsinLagos Logo" class="mb-3" style="max-width: 150px;">
+        <h5>About Us</h5>
+        <p class="text-white">VerifiedJobsinLagos connects job seekers with top employers, providing trusted and verified job listings across Lagos.</p>
+      </div>
+
+      <!-- Quick Links Section -->
+      <div class="col-md-4 mb-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Jobs</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="col-md-4 mb-4">
+        <h5>Follow Us</h5>
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <a href="https://www.facebook.com/groups/verifiedjobsinlagos" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/superlink.it" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/agbervincent" class="text-light me-3"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-secondary">
+    <div class="text-center">
+      <p class="mb-0">&copy; 2024 VerifiedJobsinLagos. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/newScript.js"></script>
+</body>
+</html>
