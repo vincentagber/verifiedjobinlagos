@@ -121,7 +121,7 @@ body {
                   }
 
                   .toggle-link {
-                        color: #007bff;
+                        color: #08469dd7;
                         cursor: pointer;
                         text-decoration: underline;
                   }
@@ -151,7 +151,7 @@ body {
                   }
 
                   .btn-custom {
-                        background-color: #007bff;
+                        background-color: #08469dd7;
                         color: #fff;
                         border: none;
                         border-radius: 5px;
