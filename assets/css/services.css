@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HERO SECTION */
+.hero-section {
+    padding: 50px 5px;
+}
+.hero-section h1 {
+    font-size: 2rem;
+}
+
+/* SERVICE SECTION */
+.service-card {
+    transition: transform 0.3s ease-in-out;
+}   
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* SOLUTION SECTION */
+.content-section {
+    background-color: #fef6f0;
+    padding: 2rem;
+}
+.steps-list {
+    list-style: none;
+    padding: 0;
+    margin: 28px 0;
+}
+.steps-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.steps-list li span {
+    font-weight: bold;
+    color: #fff;
+    margin-right: 1rem;
+    border: 2px solid orange;
+    border-radius: 50px;
+}
+.btn-primary-custom {
+    background-color: #fd7e14;
+}
+.btn-primary-custom:hover {
+    background-color: #fc6d0b;
+    color: #fff;
+}
+
+/* AGENCY SECTION */
+.agency-img {
+    width: 400px;
+}
+.testimonial-slider {
+    display: flex;
+    transition: transform 0.4s ease;
+    gap: 1rem;
+}
+.testimonial-card {
+    flex: 0 0 auto;
+    width: 300px;
+    padding: 16px 0;
+}
+.client-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+    
+/* RESPONSIVENESS */
+@media (min-width: 576px) {
+    .content-section {
+        padding: 0 24px;
+    }
+    .content-section p {
+        font-size: 18px;
+    }
+    .testimonial {
+        margin: 0 12px;
+    }
+    .testimonial-text {
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px) {
+    .hero-section {
+    padding: 80px 0;
+   }
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .btn {
+        padding: 12px 24px;
+    }
+    .content-section {
+      padding: 0 30px;
+    }
+    .steps-list li {
+    font-weight: 700;
+    font-size: large;
+    }
+    .agency-img {
+       width: 450px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-section {
+    padding: 100px 0;
+   }
+   .service-text {
+       font-size: 2rem; 
+    }
+    .content-section h1 {
+      font-size: 2.5rem;
+   }
+   .content-section {
+      padding: 0 50px;
+    }
+    .content-section p {
+        font-size: 20px;
+    }
+    .agency {
+        padding-left: 24px;
+    }
+    .testimonial {
+        margin: 0 20px;
+    }
+    .testimonial-text {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-section h1, .content-section h1 {
+        font-size: 3rem;
+    }
+    .agency-img {
+       width: 550px;
+    }
+    .agency {
+        padding-left: 32px;
+    }
+}
+

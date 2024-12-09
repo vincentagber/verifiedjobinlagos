@@ -87,3 +87,4 @@ function toggleForms() {
         formTitle.textContent = 'Register';
     }
 }
+
